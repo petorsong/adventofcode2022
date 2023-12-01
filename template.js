@@ -7,11 +7,9 @@ const rl = readline.createInterface({
   terminal: false
 });
 
-rl.on('line', (line) => {
-  // per line
+rl.on('line', (line) => { // per line
 });
 
-rl.once('close', () => {
-  // at end
+rl.once('close', () => { // at end
   console.log();
  });
